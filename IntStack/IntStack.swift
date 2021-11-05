@@ -24,7 +24,7 @@ class IntStack {
         self.items.append(input)
     }
     
-    @discardableResult // 경고창 무시해주는 기능!
+    @discardableResult // 경고창 무시해주는 기능
     func pop() -> Int {
         return self.items.removeLast()
     }
